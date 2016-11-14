@@ -1,11 +1,12 @@
 # Android demo 的演绎之路
 ***
-### 说明：本项目是android开发中常用技术/新技术的demo合集，每个module均有其各自的readme.md，主要用来：
+#### 说明：本项目是android开发中常用技术/新技术的demo合集，每个module均有其各自的readme.md，主要用来：
 * 说明所做demo的目的；
 * 用到的技术；
 * 按难易程度排序的相关技术链接；
 * 个人写demo时的一些心得体会和注意事项。
 ***
+
 ## Demo分类列表
 - Material Design控件相关
   * ToolBar、AppBarLayout、CollapsingToolBarLayout

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8b9"
+    android:orientation="vertical"
+    tools:context="zcj.android.activitytransition.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_type0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.0以下" />
+
+    <Button
+        android:id="@+id/btn_type1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分解" />
+
+    <Button
+        android:id="@+id/btn_type2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="滑动进入" />
+
+    <Button
+        android:id="@+id/btn_type3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="淡入淡出" />
+
+    <Button
+        android:id="@+id/btn_type4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单个共享元素" />
+
+    <Button
+        android:id="@+id/btn_type5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多个共享元素" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/share_btn"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="btn"
+            android:transitionName="shareBtn" />
+    </FrameLayout>
+
+</LinearLayout>
