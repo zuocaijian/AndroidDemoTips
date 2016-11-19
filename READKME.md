@@ -1,4 +1,4 @@
-# Android demo 的演绎之路
+# Android demo： Android知识点实践之路
 ***
 #### 说明：本项目是android开发中常用技术/新技术的demo合集，每个module均有其各自的readme.md，主要用来：
 * 说明所做demo的目的；
@@ -8,7 +8,8 @@
 ***
 
 ## Demo分类列表
-- Material Design控件相关
+> **Material Design控件相关**
+
   * ToolBar、AppBarLayout、CollapsingToolBarLayout
   * TabLayout
   * CoordinateLayout
@@ -16,24 +17,33 @@
   * TextInputLayout
   * FloatingActionBarButton
   * SnackBar
-  
-- SoftInputMethod软键盘相关
+
+> **SoftInputMethod软键盘相关**
+
   * 软键盘高度的获取
   * 软键盘的打开与关闭
   * 软键盘打开与关闭事件的监听
   * 软键盘与Activity中布局的关系
 
-- 系统栏相关
+> **Android Hot Fix热修复**
+
+  * 热更新设计的原理：java、android类加载器，反射等
+  * 开源的热更新框架的使用
+
+> **系统栏相关**
+
   * 状态栏、导航栏、标题栏的高度获取
   * 状态栏的隐藏、透明、着色、样式实践
   * 标题栏的隐藏、样式实践
   * 导航栏的隐藏实践
 
-- Activity的转场动画
+> **Activity的转场动画**
+
   * android5.0以下的转场动画
   * android5.0以上的转场动画
   * 兼容方式探索
 
-- 工具类
+> **工具类**
+
   * UIUtils
   * FileUtils
